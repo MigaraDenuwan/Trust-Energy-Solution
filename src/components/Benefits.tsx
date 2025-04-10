@@ -1,4 +1,3 @@
-import React from 'react';
 import { DollarSignIcon, LeafIcon, HomeIcon, BatteryChargingIcon } from 'lucide-react';
 export function Benefits() {
   return <section id="benefits" className="py-16 bg-white">

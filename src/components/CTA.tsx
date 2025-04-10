@@ -1,4 +1,3 @@
-import React from 'react';
 export function CTA() {
   return <section className="py-16 bg-gradient-to-r from-green-600 to-green-800 text-white">
       <div className="container mx-auto px-4 text-center">

@@ -1,4 +1,3 @@
-import React from 'react';
 import { StarIcon } from 'lucide-react';
 export function Testimonials() {
   const testimonials = [{

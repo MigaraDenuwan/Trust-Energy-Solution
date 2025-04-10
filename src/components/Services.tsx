@@ -1,4 +1,3 @@
-import React from 'react';
 import { HomeIcon, BuildingIcon, FactoryIcon, WrenchIcon } from 'lucide-react';
 export function Services() {
   const services = [{

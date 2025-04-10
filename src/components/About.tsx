@@ -1,4 +1,3 @@
-import React from 'react';
 export function About() {
   return <section id="about" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">

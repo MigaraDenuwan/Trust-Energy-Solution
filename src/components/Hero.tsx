@@ -1,4 +1,3 @@
-import React from 'react';
 export function Hero() {
   return <section className="relative bg-gradient-to-r from-green-700 to-blue-800 text-white">
       <div className="absolute inset-0 overflow-hidden">

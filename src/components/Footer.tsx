@@ -1,13 +1,12 @@
-import React from 'react';
-import { PhoneIcon, MailIcon, MapPinIcon, FacebookIcon, TwitterIcon, InstagramIcon, LinkedinIcon, SunIcon } from 'lucide-react';
+import { PhoneIcon, MailIcon, MapPinIcon, FacebookIcon, TwitterIcon, InstagramIcon, LinkedinIcon } from 'lucide-react';
 export function Footer() {
   return <footer id="contact" className="bg-gray-800 text-white">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <SunIcon className="h-8 w-8 text-yellow-500 mr-2" />
-              <span className="text-xl font-bold">Trust Energy Solutions</span>
+            <img src="/images/Trust_Energy_Solution.png" alt="logo" className="h-[50px] w-[110px] px-1 py-1 mr-2" />            
+            <span className="text-xl font-bold">Trust Energy Solutions</span>
             </div>
             <p className="text-gray-300 mb-4">
               Providing clean, renewable energy solutions for homes and
@@ -108,7 +107,7 @@ export function Footer() {
         </div>
         <div className="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400 text-sm">
           <p>
-            © {new Date().getFullYear()} Hayles Solar. All rights reserved.
+            © {new Date().getFullYear()} Trust Energy Solutions. All rights reserved.
           </p>
         </div>
       </div>

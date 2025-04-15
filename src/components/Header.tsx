@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';  // Import Link from react-router-dom
 import { useState } from 'react';
 import { MenuIcon, Search, XIcon } from 'lucide-react';
 
@@ -6,7 +7,7 @@ export function Header() {
 
   return (
     <header className="bg-[rgb(255, 255, 255)] shadow-md sticky top-0 z-50 backdrop-blur-md">
-    <div className="container flex items-center justify-between px-4">
+      <div className="container flex items-center justify-between px-4">
         <div className="flex items-center mr-auto">
           <img
             src="/images/Trust_Energy_Solutions__2.png"
@@ -24,7 +25,7 @@ export function Header() {
               placeholder="Search..."
               className="w-64 pl-10 pr-4 py-2 border border-[#404040] rounded-md focus:outline-none focus:ring-2 focus:ring-[#FAB111] transition"
             />
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-[#404040" size={18} />
+            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-[#404040]" size={18} />
           </div>
           <nav className="flex items-center space-x-6">
             <a href="#services" className="text-[#093464] hover:text-[#FAB111] font-bold transition-colors">
@@ -39,9 +40,9 @@ export function Header() {
             <a href="#testimonials" className="text-[#093464] hover:text-[#FAB111] font-bold transition-colors">
               Testimonials
             </a>
-            <a href="#contact" className="bg-[#FAB111] text-white px-4 py-2 rounded-md hover:bg-[#C35919] font-bold transition-colors">
+            <Link to="/contact" className="bg-[#FAB111] text-white px-4 py-2 rounded-md hover:bg-[#C35919] font-bold transition-colors">
               Contact Us
-            </a>
+            </Link>
           </nav>
         </div>
 
@@ -75,9 +76,9 @@ export function Header() {
             <a href="#testimonials" className="text-[#093464] hover:text-[#FAB111] font-bold py-2 transition-colors">
               Testimonials
             </a>
-            <a href="#contact" className="bg-[#FAB111] text-white px-4 py-2 rounded-md hover:bg-[#C35919] font-bold transition-colors w-full text-center">
+            <Link to="/contact" className="bg-[#FAB111] text-white px-4 py-2 rounded-md hover:bg-[#C35919] font-bold transition-colors w-full text-center">
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
       )}

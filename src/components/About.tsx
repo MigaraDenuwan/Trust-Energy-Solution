@@ -2,9 +2,9 @@ export function About() {
   return <section id="about" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-12">
-          <div className="lg:w-1/2">
-            <img src="https://images.unsplash.com/photo-1497440001374-f26997328c1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Hayles Solar team installing solar panels" className="rounded-lg shadow-lg w-full h-auto object-cover" />
-          </div>
+        <div className="lg:w-1/2">
+          <img src="/images/solar5.jpg" className="rounded-xl" alt="Solar 5" />
+        </div>
           <div className="lg:w-1/2">
             <h2 className="text-3xl font-bold mb-6">About Trust Energy Solutions</h2>
             <p className="text-gray-600 mb-4">

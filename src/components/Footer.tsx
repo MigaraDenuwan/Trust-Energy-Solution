@@ -5,8 +5,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-            <img src="/images/Trust_Energy_Solution.png" alt="logo" className="h-[50px] w-[110px] px-1 py-1 mr-2" />            
-            <span className="text-xl font-bold">Trust Energy Solutions</span>
+            <img
+              src="/images/Trust Energy Solutions (3).png"
+              alt="logo"
+              className="h-auto w-2/3 mr-2 px-1 py-1"
+            />
             </div>
             <p className="text-gray-300 mb-4">
               Providing clean, renewable energy solutions for homes and

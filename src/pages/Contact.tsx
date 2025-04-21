@@ -22,7 +22,7 @@ export function Contact() {
         {/* Responsive Contact Section */}
         <div className="flex flex-col md:flex-row gap-10 container mx-auto px-6 py-10">
           {/* Contact Information */}
-          <div className="md:w-1/2 w-full bg-[#FAB111]/40 rounded-xl p-8 shadow-lg border border-gray-200">
+          <div className="md:w-1/2 w-full bg-gradient-to-r from-yellow-100 to-blue-100 rounded-xl p-8 shadow-lg border border-gray-200">
             <h1 className="text-4xl font-extrabold text-center text-[#093464] mb-8">Contact Us</h1>
   
             {/* Address Section */}
@@ -70,8 +70,8 @@ export function Contact() {
           </div>
   
           {/* Contact Form */}
-          <div className="md:w-1/2 w-full bg-[#FAB111]/40 rounded-xl p-8 shadow-lg border border-gray-200">
-            <h2 className="text-3xl font-semibold text-[#093464] mb-6">Send Us a Message</h2>
+          <div className="md:w-1/2 w-full bg-gradient-to-r from-yellow-100 to-blue-100 rounded-xl p-8 shadow-lg border border-gray-200">
+            <h2 className="text-4xl font-extrabold text-center text-[#093464] mb-8">Send Us a Message</h2>
             <form
               action="mailto:info@hayleyssolar.com"
               method="POST"
